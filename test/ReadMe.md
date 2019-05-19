@@ -1,0 +1,1 @@
+Open question project for the InfoShareAcademy JFDZ10 Final Exam
