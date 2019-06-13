@@ -8,12 +8,7 @@ class App extends Component {
     }
   }
   componentDidMount() {
-    fetch("https://randomuser.me/api/?results=10",
-    ({
-      url: 'https://randomuser.me/api/?results=10',
-      dataType: 'json',
-      method: "GET"
-    }))
+    fetch("https://randomuser.me/api/?results=10")
       .then(response => response.json())
       .then(results => {
         this.setState({
